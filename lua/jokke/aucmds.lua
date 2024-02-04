@@ -5,7 +5,7 @@ local autocmd = vim.api.nvim_create_autocmd
 augroup('OmnisharpRemaps', { clear = true })
 autocmd('Filetype', {
   group = 'OmnisharpRemaps',
-  pattern = { '*.cs' },
+  pattern = { 'cs' },
   callback = function()
     vim.keymap.set('n', '<leader>gd', '<Plug>(omnisharp_go_to_definition)', {silent = true, buffer = true})
   end
