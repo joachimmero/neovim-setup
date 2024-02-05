@@ -6,6 +6,7 @@ Plug 'OmniSharp/omnisharp-vim'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'dense-analysis/ale'
 Plug ('catppuccin/nvim', { as = 'catppuccin' })
+Plug ('rebelot/kanagawa.nvim', { as = 'kanagawa' })
 Plug ('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate'})
 Plug 'nvim-lua/plenary.nvim'
 Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.5' })

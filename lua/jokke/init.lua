@@ -14,4 +14,4 @@ vim.opt.expandtab = true;
 
 vim.opt.scrolloff = 15;
 
-vim.cmd.colorscheme 'catppuccin'
+vim.cmd.colorscheme 'kanagawa'
