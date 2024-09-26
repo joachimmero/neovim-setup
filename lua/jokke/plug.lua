@@ -20,6 +20,8 @@ vim.g.OmniSharp_server_use_mono = 1
 vim.g.OmniSharp_server_use_net6 = 1
 vim.g.Omnisharp_popup = 1
 
-vim.g.ale_linters = {
-cs = {'OmniSharp'}
-}	
+vim.g.ale_sign_error = '•'
+vim.g.ale_sign_warning = '•'
+vim.g.ale_sign_info = '·'
+vim.g.ale_sign_style_error = '·'
+vim.g.ale_sign_style_warning = '·'
