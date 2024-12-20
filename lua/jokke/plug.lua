@@ -8,6 +8,7 @@ Plug 'dense-analysis/ale'
 Plug ('catppuccin/nvim', { as = 'catppuccin' })
 Plug ('folke/tokyonight.nvim', { as = 'tokyonight' })
 Plug ('rebelot/kanagawa.nvim', { as = 'kanagawa' })
+Plug ('Mofiqul/vscode.nvim', { as = 'vscode' })
 Plug ('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate'})
 Plug 'nvim-lua/plenary.nvim'
 Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.5' })
@@ -32,4 +33,4 @@ vim.g.ale_linters = {
 cs = {'OmniSharp'}
 }
 
-vim.cmd [[colorscheme tokyonight]]
+vim.cmd [[colorscheme vscode]]
