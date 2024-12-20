@@ -8,6 +8,7 @@ autocmd('Filetype', {
   pattern = { 'cs' },
   callback = function()
     vim.keymap.set('n', '<leader>gd', '<Plug>(omnisharp_go_to_definition)', {silent = true, buffer = true})
+    vim.keymap.set('n', '<leader>gt', '<Plug>(omnisharp_go_to_type_definition)', {silent = true, buffer = true})
     vim.keymap.set('n', '<leader>fu', '<Plug>(omnisharp_find_usages)', {silent = true, buffer = true})
     vim.keymap.set('n', '<leader>fi', '<Plug>(omnisharp_find_implementations)', {silent = true, buffer = true})
     vim.keymap.set('n', '<leader>ca', '<Plug>(omnisharp_code_actions)', {silent = true, buffer = true})
